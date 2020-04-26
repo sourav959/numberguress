@@ -36,7 +36,7 @@ try{
 	final int y1=(int)session.getAttribute("a");
 	//out.println(""+y1);
 	int y2 = Integer.parseInt(request.getParameter("guess"));
-	session.setAttribute("b",y2);
+//	session.setAttribute("b",y2);
 	if(y2==y1)
 	{
 		session.invalidate();
